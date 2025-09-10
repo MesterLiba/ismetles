@@ -1,0 +1,53 @@
+
+body{
+    background-color: rgb(255, 212, 20);
+}
+header{
+    background-color: orange;
+}
+*{
+    box-sizing: border-box;
+}
+section{
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 30px;
+    max-width: 500px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    max-width: 400px;
+    border: solid 2px rgb(92, 92, 92);
+    border-radius: 30px;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+header{
+    text-align: center;
+}
+footer{
+    margin-top: 30px;
+    background-color: orange;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-shadow: 1px 1px 6px rgb(255, 238, 0);
+}
+
+ @media screen and (max-width:900px){
+    article{
+        grid-template-columns: 1fr;
+    }
+ }
